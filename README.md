@@ -20,7 +20,7 @@ CRUD:-Create Read Update and Delete
         The function has to be called with the query and projection,thw query can be left empty to display all element that matches the projection parameters.
 
         example:-
-            print(search(mycol,{'firstName':'Joe'}))
+            print(search(mycol,{},{'firstName':'Joe'}))
 
     To Update :-
         The function is called with collection name, the query to update the new query and the number of documents to be updated parameters
