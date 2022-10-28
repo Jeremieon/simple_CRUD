@@ -11,8 +11,8 @@ def input_document(document,coll,num_doc):
         x = coll.insert_many([document])
         return (f'{x.inserted_ids} is inserted into your collection')
 #Search for document
-def search(coll,query1,query2):
-    for i in coll.find(query1,query2):
+def search(coll,query,proj):
+    for i in coll.find(query,proj):
         print(i)
 #Edit document
 def edit(coll,old_query,new_query,num_doc):
@@ -29,3 +29,4 @@ def remove_doc(coll,query,num_doc):
        print(x.deleted_ids, "document deleted") 
 #Created document
 #input_document({'firstName':"felicia",'lastName':"Samson",'gender':"female",'age':19,'number':"881234085"},mycol,1)
+print(search(mycol,{'firstName':'Joe'}))
