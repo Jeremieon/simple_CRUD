@@ -2,7 +2,7 @@
 
 Simple Student/Person data using Mongo_db
 
-Library used:- pymongo (pip install pymongo)
+Library used:- pymongo (pip install pymongo) '\n'
 Connection:- mongodb://localhost:27017
 Database name :-Student
 Collection Name:-persons
