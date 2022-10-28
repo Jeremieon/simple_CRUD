@@ -8,6 +8,7 @@ Database name :-Student
 Collection Name:-persons
 Number of Documents:14
 Collection description:- \_id,firstName,lastName,gender,age,number
+Data file:-can be found '../persons.json'
 CRUD:-Create Read Update and Delete
 
     To Create :-

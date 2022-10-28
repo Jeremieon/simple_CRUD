@@ -1,0 +1,127 @@
+[{
+  "_id": {
+    "$oid": "635ba6b5169e4fbbecf04393"
+  },
+  "firstname": "Joe",
+  "lastname": "Jackson",
+  "gender": "male",
+  "age": 28,
+  "numbers": "8472947098"
+},{
+  "_id": {
+    "$oid": "635ba79873e493f4afb93455"
+  },
+  "firstName": "James",
+  "lastName": "Smith",
+  "gender": "male",
+  "age": 32,
+  "number": "5678568567"
+},{
+  "_id": {
+    "$oid": "635ba79873e493f4afb93456"
+  },
+  "firstName": "Emily",
+  "lastName": "Jones",
+  "gender": "female",
+  "age": 24,
+  "number": "456754675"
+},{
+  "_id": {
+    "$oid": "635ba79873e493f4afb93457"
+  },
+  "firstName": "Mike",
+  "lastName": "Lanze",
+  "gender": "male",
+  "age": 48,
+  "number": "9504318382"
+},{
+  "_id": {
+    "$oid": "635ba79873e493f4afb93458"
+  },
+  "firstName": "Liam",
+  "lastName": "Agboola",
+  "gender": "male",
+  "age": 8,
+  "number": "3120956382"
+},{
+  "_id": {
+    "$oid": "635ba79873e493f4afb93459"
+  },
+  "firstName": "Hanna",
+  "lastName": "Jwels",
+  "gender": "female",
+  "age": 33,
+  "number": "2300925478"
+},{
+  "_id": {
+    "$oid": "635ba817081fbe8eec268bfc"
+  },
+  "firstName": "Richard",
+  "lastName": "Johnsson",
+  "gender": "male",
+  "age": 27,
+  "number": "8862355667"
+},{
+  "_id": {
+    "$oid": "635ba817081fbe8eec268bfd"
+  },
+  "firstName": "Rebecca",
+  "lastName": "keys",
+  "gender": "female",
+  "age": 30,
+  "number": "1986444234"
+},{
+  "_id": {
+    "$oid": "635ba817081fbe8eec268bfe"
+  },
+  "firstName": "Lily",
+  "lastName": "Cross",
+  "gender": "female",
+  "age": 26,
+  "number": "1297664245"
+},{
+  "_id": {
+    "$oid": "635bba4c7fecf310f30d7c63"
+  },
+  "firstName": "Caleb",
+  "lastName": "fisher",
+  "gender": "male",
+  "age": 22,
+  "number": "6740913248"
+},{
+  "_id": {
+    "$oid": "635bbab6d124f8cb640c1b69"
+  },
+  "firstName": "Mary",
+  "lastName": "Cambell",
+  "gender": "female",
+  "age": 29,
+  "number": "84036593595"
+},{
+  "_id": {
+    "$oid": "635bbafca6ac7586204e29bc"
+  },
+  "firstName": "Mary",
+  "lastName": "Cambell",
+  "gender": "female",
+  "age": 29,
+  "number": "84036593595"
+},{
+  "_id": {
+    "$oid": "635bc084603a1a2e01b8e531"
+  },
+  "firstName": "milliea",
+  "lastName": "kennedy",
+  "gender": "female",
+  "age": 32,
+  "number": "32545465775"
+},{
+  "_id": {
+    "$oid": "635bd3a6d76f80dbb5d77ace"
+  },
+  "firstName": "felicia",
+  "lastName": "Samson",
+  "gender": "female",
+  "age": 19,
+  "number": "881234085"
+}]
