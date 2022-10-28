@@ -26,7 +26,7 @@ CRUD:-Create Read Update and Delete
         The function is called with collection name, the query to update the new query and the number of documents to be updated parameters
 
         example:-
-            print (edit(mycol,{'firstName':"felicia",'lastName':"Samson",'gender':"female",'age':19,'number':"881234085"},{'firstName':"felicia",'lastName':"Gates",'gender':"female",'age':29,'number':"8812317654"},1)):
+            print (edit(mycol,{'firstName':"felicia",'lastName':"Samson",'gender':"female",'age':19,'number':"881234085"},{'firstName':"felicia",'lastName':"Gates",'gender':"female",'age':29,'number':"8812317654"},1))
 
     To Delete .-
         The function is called with the collection name,query to be deleted and number of documents to be deleted.

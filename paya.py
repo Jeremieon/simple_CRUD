@@ -13,7 +13,7 @@ def input_document(document,coll,num_doc):
 #Search for document
 def search(coll,query,proj):
     for i in coll.find(query,proj):
-        print(i)
+        (i)
 #Edit document
 def edit(coll,old_query,new_query,num_doc):
     if num_doc == 1:
@@ -28,5 +28,10 @@ def remove_doc(coll,query,num_doc):
        x= coll.delete_many(query)
        print(x.deleted_ids, "document deleted") 
 #Created document
-#input_document({'firstName':"felicia",'lastName':"Samson",'gender':"female",'age':19,'number':"881234085"},mycol,1)
-print(search(mycol,{'firstName':'Joe'}))
+input_document({'firstName':"felicia",'lastName':"Samson",'gender':"female",'age':19,'number':"881234085"},mycol,1)
+#Read document
+search(mycol,{'firstName':'Joe'})
+#Update document
+print (edit(mycol,{'firstName':"felicia",'lastName':"Samson",'gender':"female",'age':19,'number':"881234085"},{'firstName':"felicia",'lastName':"Gates",'gender':"female",'age':29,'number':"8812317654"},1))
+#Delete Document
+remove_doc(mycol,{'firstName':"Mary",'lastName':"Cambell",'gender':"female",'age':29,'number':"84036593595"},1)
